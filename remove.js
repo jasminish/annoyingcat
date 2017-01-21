@@ -1,2 +1,3 @@
-while (annoyingcat.hasChildNodes())
+while (annoyingcat.hasChildNodes()) {
     annoyingcat.removeChild(annoyingcat.lastChild);
+}
