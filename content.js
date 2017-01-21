@@ -1,5 +1,5 @@
 var cats = [];
-for (var i = 1; i <= 6; i++) {
+for (var i = 1; i <= 25; i++) {
     cats.push('catimages/cat' + i + '.png');
 }
 
@@ -16,8 +16,8 @@ function createCat() {
         var chosen = cats[Math.floor(Math.random() * cats.length)];
         var imgURL = chrome.extension.getURL(chosen);
 
-        var top = Math.floor(Math.random());
-        var left = Math.floor(Math.random());
+        var top = Math.floor(Math.random() * 100);
+        var left = Math.floor(Math.random() * 100);
 
         var img = document.createElement("IMG");
         img.src = imgURL;
