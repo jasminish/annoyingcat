@@ -7,3 +7,5 @@ var imgURL = chrome.extension.getURL('pusheen.png');
 img.src = imgURL;
 div.appendChild(img);
 document.body.appendChild(div);
+
+img.onClick = function() {img.style.visibility="hidden";};
