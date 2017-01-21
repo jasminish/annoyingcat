@@ -1,4 +1,7 @@
-var cats = ['cat1.png', 'cat2.png', 'cat3.png', 'cat4.png', 'cat5.png', 'cat6.png']
+var cats = [];
+for (var i = 1; i <= 6; i++) {
+    cats.push('catimages/cat' + i + '.png');
+}
 
 
 var div = document.createElement("DIV");

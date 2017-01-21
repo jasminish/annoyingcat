@@ -6,7 +6,7 @@
     "version": "1.0",
 
     "browser_action": {
-        "default_icon": "/images/offfixed.png",
+        "default_icon": "/icons/offfixed.png",
         "default_title": "No cats here!"
     },
 
@@ -28,11 +28,6 @@
     }],
 
     "web_accessible_resources": [
-        "cat1.png",
-        "cat2.png",
-        "cat3.png",
-        "cat4.png",
-        "cat5.png",
-        "cat6.png"
+        "catimages/*.png"
     ]
 }
