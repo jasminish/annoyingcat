@@ -7,7 +7,8 @@
 
     "browser_action": {
         "default_icon": "/images/offfixed.png",
-        "default_title": "No cats here!"
+        "default_title": "No cats here!",
+        "default_popup": "popup.html"
     },
 
 
@@ -16,10 +17,6 @@
         "https://ajax.googleapis.com/"
     ],
 
-
-    "background": {
-        "scripts": ["background.js"]
-    },
 
 
     "content_scripts": [{
