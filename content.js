@@ -16,8 +16,8 @@ function createCat() {
         var chosen = cats[Math.floor(Math.random() * cats.length)];
         var imgURL = chrome.extension.getURL(chosen);
 
-        var top = Math.floor(Math.random()*90)+5;
-        var left = Math.floor(Math.random()*90)+5;
+        var top = Math.floor(Math.random());
+        var left = Math.floor(Math.random());
 
         var img = document.createElement("IMG");
         img.src = imgURL;
