@@ -1,0 +1,10 @@
+#ANNOYINGCAT {
+    position: fixed;
+    top: calc(50% - 125px);
+    left: calc(50% - 125px);
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 10px solid white;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+}
