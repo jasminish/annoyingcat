@@ -22,7 +22,6 @@ function createCat() {
             createCat();
         });
     }
-    console.log(rmcounter);
 
 }
 
