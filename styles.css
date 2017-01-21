@@ -6,8 +6,10 @@
   z-index: 2147483647;
   width: 150px;
 }
+
 #annoyingcat {
   width: 300;
   height: auto;
+  opacity: 0.5;
   position:fixed;
 }
