@@ -18,7 +18,7 @@ function createCat() {
 
         img.addEventListener("click", function() {
             img.style.visibility = 'hidden';
-            rmcounter *= 2;
+            rmcounter++;
             createCat();
         });
     }
