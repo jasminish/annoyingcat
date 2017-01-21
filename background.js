@@ -10,6 +10,6 @@ chrome.browserAction.onClicked.addListener(function(tab) {
   } else {
     chrome.browserAction.setIcon({path: "/images/offfixed.png", tabId: tab.id});
     chrome.browserAction.setTitle({title: "No cats here!"});
-    chrome.tabs.executeScript(tab.id, {code:"alert()"});
+    chrome.tabs.executeScript(tab.id, {file:"remove.js"});
   }
 });
