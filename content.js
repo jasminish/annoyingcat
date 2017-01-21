@@ -1,9 +1,30 @@
-var div = document.createElement("DIV");
-div.id = "annoyingcat";
+var annoyingdiv = document.getElementById("annoyingcat");
 
+if (annoyingdiv == null) {
 
-var img = document.createElement("IMG");
-var imgURL = chrome.extension.getURL('pusheen.png');
-img.src = imgURL;
-div.appendChild(img);
-document.body.appendChild(div);
+  var div = document.createElement("DIV");
+  div.id = "annoyingcat";
+
+  var img = document.createElement("IMG");
+  var imgURL = chrome.extension.getURL('pusheen.png');
+  img.src = imgURL;
+  div.appendChild(img);
+  document.body.appendChild(div);
+
+} else {
+
+  var img = document.createElement("IMG");
+  var imgURL = chrome.extension.getURL('pusheen.png');
+  img.src = imgURL;
+  annoyingdiv.appendChild(img);
+  
+}
+
+// var div = document.createElement("DIV");
+// div.id = "annoyingcat";
+//
+// var img = document.createElement("IMG");
+// var imgURL = chrome.extension.getURL('pusheen.png');
+// img.src = imgURL;
+// div.appendChild(img);
+// document.body.appendChild(div);
