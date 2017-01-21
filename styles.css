@@ -6,7 +6,7 @@
   z-index: 2147483647
 }
 #annoyingcat {
-  background-color: transparent;
+  opacity: 0%; 
   width: 100;
   height: auto;
   position:fixed;
