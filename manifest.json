@@ -16,12 +16,15 @@
         "https://ajax.googleapis.com/"
     ],
 
+<<<<<<< HEAD
 
     "background": {
         "scripts": ["background.js"]
     },
 
 
+=======
+>>>>>>> parent of 0d2128a... Added background field
     "content_scripts": [{
         "css": ["styles.css"],
         "matches": ["<all_urls>"],
