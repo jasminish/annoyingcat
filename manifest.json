@@ -26,5 +26,9 @@
         "css": ["styles.css"],
         "matches": ["<all_urls>"],
         "js": ["content.js"]
-    }]
+    }],
+
+    "web_accessible_resources": [
+        "pusheen.png"
+    ]
 }
