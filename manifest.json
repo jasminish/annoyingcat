@@ -28,7 +28,6 @@
     }],
 
     "web_accessible_resources": [
-        "pusheen.png",
         "cat1.png",
         "cat2.png",
         "cat3.png",
